@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/Cellar/node/16.6.2/bin/node /usr/local/Cellar/yarn/1.22.11/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.6.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/vite: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:141423:19)
+      at listOnTimeout (node:internal/timers:557:17)
+      at processTimers (node:internal/timers:500:7)
+
+npm manifest: 
+  {
+    "name": "modal-window",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "devDependencies": {
+      "vite": "^2.6.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
